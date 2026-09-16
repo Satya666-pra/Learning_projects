@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-lab
+    runtime: python
+    rootDir: venv
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn application:application
