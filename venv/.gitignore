@@ -1,0 +1,10 @@
+# Ignore the Python virtual environment internals; only track project source files
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+# Python cruft
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
